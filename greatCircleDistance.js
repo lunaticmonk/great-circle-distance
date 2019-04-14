@@ -1,9 +1,9 @@
 "use strict";
 
-const RADIUS_OF_EARTH = 6371e3;
 const PI = Math.PI;
+const RADIUS_OF_EARTH = 6371e3;
 
-const distance = options => {
+const greatCircleDistance = options => {
   const { lat1, lng1, lat2, lng2 } = options;
 
   const dLat = getRadians(lat2) - getRadians(lat1);
@@ -13,6 +13,11 @@ const distance = options => {
   const φ2 = getRadians(lat2);
   const Δφ = getRadians(lat2 - lat1);
   const Δλ = getRadians(lng2 - lng1);
+
+  /**
+   * Havershine's formula
+   *
+   */
 
   const a =
     Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
@@ -30,5 +35,5 @@ const getRadians = coordinate => {
 };
 
 module.exports = {
-    distance
+  greatCircleDistance
 };
