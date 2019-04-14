@@ -1,0 +1,19 @@
+{
+  "name": "great-circle-distance",
+  "version": "1.0.0",
+  "description": "A npm package to calculate the distance between two coordinates on the earth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunaticmonk/great-circle-distance.git"
+  },
+  "author": "Sumedh Nimkarde <blesssumedh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunaticmonk/great-circle-distance/issues"
+  },
+  "homepage": "https://github.com/lunaticmonk/great-circle-distance#readme"
+}
