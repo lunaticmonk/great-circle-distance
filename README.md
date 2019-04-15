@@ -1,7 +1,5 @@
-# great-circle-distance
-
 <h1  align="center">❯❯❯ Great Circle Distance</h1>
-<p  align="center">A npm package to calculate the distance between two coordinates on the earth.</p>
+<p  align="center">A npm package to calculate the distance between two coordinates on the earth. Read more about it <a href="https://en.wikipedia.org/wiki/Great-circle_distance" target="_blank">here.</a></p>
 <p  align="center">
 <img  src="./assets/great-circle-distance.svg">
 Source: Wikipedia
