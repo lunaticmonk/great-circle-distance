@@ -34,7 +34,7 @@ greatCircleDistance(coords);
 ### Node.js version
 
 ```
-> v6.11.0
+any version greater than v7.6.x.
 ```
 
 ### Contribute
