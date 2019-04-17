@@ -1,6 +1,6 @@
 {
   "name": "great-circle-distance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A npm package to calculate the distance between two coordinates on the earth.",
   "main": "greatCircleDistance.js",
   "repository": {
